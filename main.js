@@ -5,7 +5,8 @@ function getParagraph1(){
     }
     console.log(inputs.join(". "));
     document.getElementById("showParagraph1").style.display="inline-block";
-    document.getElementById("showParagraph1").innerHTML=inputs.join(". ");
+    var output = inputs.join(". ")+".";
+    document.getElementById("showParagraph1").innerHTML=output;
 }
 
 function getParagraph2(){
