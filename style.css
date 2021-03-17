@@ -1,0 +1,19 @@
+
+  body{
+      text-align: center;
+      background: linear-gradient(to right,rgba(223,52,182,89),rgba(242,246,66,91));
+  }
+  #showParagraph1{
+      display: none;
+  }
+  #showParagraph2{
+      display: none;
+  }
+  div{
+      width: 49%;
+  }
+  #header{
+      color: darkblue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 50px;
+  }
